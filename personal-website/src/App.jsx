@@ -3,23 +3,38 @@
 // import viteLogo from "/vite.svg";
 import "./App.css";
 import "./index.css";
+
 import { Route, Routes } from "react-router-dom";
+
 import NotFound from "./NotFound.jsx";
 import Home from "./pages/Home";
 import Header from "./components/Header.jsx";
 import NavBar from "./components/NavBar.jsx";
+import About from "./pages/About.jsx";
+import Music from "./pages/Music.jsx";
+import Games from "./pages/Games.jsx";
+import Writing from "./pages/Writing.jsx";
+
+// import "@mantine/core/styles.css";
+import { MantineProvider } from "@mantine/core";
 
 function App() {
   return (
     <>
-      <div className="App-container">
-        <Header />
-        <NavBar />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="*" element={<NotFound />} />
-        </Routes>
-      </div>
+      <MantineProvider>
+        <div className="App-container">
+          <Header />
+          <NavBar />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/writing" element={<Writing />} />
+            <Route path="/games" element={<Games />} />
+            <Route path="/music" element={<Music />} />
+            <Route path="*" element={<NotFound />} />
+          </Routes>
+        </div>
+      </MantineProvider>
     </>
   );
 }
