@@ -1,0 +1,14 @@
+header {
+  text-align: center;
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(189, 219, 229),
+    rgb(157, 44, 157)
+  );
+  margin: 0;
+  min-width: 100%;
+}
+
+.Header-title {
+  padding: 8px;
+}
