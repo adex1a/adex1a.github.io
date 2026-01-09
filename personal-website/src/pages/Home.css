@@ -1,16 +1,10 @@
 .bg {
   background-image: url(../assets/image3.png);
-  /* min-height: 100%; */
-  /* min-width: 100%; */
   flex: 1;
   animation: slide 90s linear infinite;
-  /* position: absolute;
-  top: 0px;
-  left: 0px; */
   z-index: -1;
   display: flex;
   flex-direction: column;
-  /* color: white; */
 }
 
 @keyframes slide {
@@ -27,7 +21,43 @@ h1 {
   font-weight: normal;
 }
 
+h2 {
+  margin: 8px;
+  padding: 8px;
+  font-size: 40px;
+  font-weight: normal;
+  text-align: left;
+}
+
+h4 {
+  margin: 8px;
+  padding: 8px;
+  font-size: 20px;
+  font-weight: normal;
+  text-align: left;
+}
+
+aside {
+  font-weight: normal;
+  padding-left: 0.5rem;
+  margin-left: 0.5rem;
+  font-style: italic;
+  flex-basis: 70%;
+  font-size: 16px;
+}
+
+.music {
+  display: flex;
+  padding: 0 16px 16px;
+}
+
 .Home-text {
   padding: 8px;
   text-wrap: wrap;
+}
+
+.Music-text {
+  padding: 0 16px;
+  text-wrap: wrap;
+  text-align: left;
 }
