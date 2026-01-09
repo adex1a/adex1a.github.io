@@ -12,4 +12,11 @@
 .Header-title {
   padding: 8px;
   color: #290547;
+  text-decoration: none;
+}
+
+.Header-title:hover {
+  padding: 8px;
+  color: white;
+  text-decoration: none;
 }

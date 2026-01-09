@@ -5,7 +5,11 @@ import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <header className="Header-container">
-      <h1 className="Header-title">Aadya Sharma</h1>
+      <h1>
+        <Link to="/" className="Header-title">
+          Aadya Sharma
+        </Link>
+      </h1>
     </header>
   );
 };
