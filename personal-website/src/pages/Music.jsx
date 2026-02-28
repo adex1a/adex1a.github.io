@@ -1,19 +1,18 @@
 import React from "react";
 import "./Home.css";
-import { Text } from "@mantine/core";
 
 const Music = () => {
   return (
     <div>
       {/* <h1 className="Home-text">Music page</h1> */}
       <h2>My Background</h2>
-      <Text className="Music-text">
+      <p className="Music-text">
         My music journey began with violin lessons in 3rd grade, and piano soon
         after. While I quit piano four years later, I continued violin
         seriously, joining several youth orchestras and attending Orange County
         School of the Arts (OCSA) in the Instrumental Music: Strings & Orchestra
         conservatory.
-      </Text>
+      </p>
 
       <h2>My Compositions</h2>
 
