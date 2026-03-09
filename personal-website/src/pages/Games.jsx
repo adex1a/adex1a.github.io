@@ -10,15 +10,19 @@ const Games = () => {
       <p className="Pages-paragraphText">
         I've been making games independently for nearly four years now, starting
         in 2022 with the COSMOS Game Design summer program and continuing
-        through 2024, when I was chosen to be an Entertainment Software
-        Association Scholar, to 2026, when I am attending the GDC Festival of
-        Gaming. I've covered many roles in gamedev, from programming to music,
-        though these days I'm most interested in writing and narrative design.
-        Below are some games I've been involved in relatively recently.
+        through 2024, when I was chosen to be an ESA Foundation Scholar, to
+        2026, when I am attending the GDC Festival of Gaming. I've covered many
+        roles in gamedev, from programming to music, though these days I'm most
+        interested in writing and narrative design. Below are some games I've
+        developed relatively recently.
       </p>
       <h2>Highlighted Games</h2>
       <h4>
-        <a href="https://adexia.itch.io/cirque-des-animaux" target="_blank">
+        <a
+          href="https://adexia.itch.io/cirque-des-animaux"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
           Cirque des Animaux
         </a>
       </h4>
@@ -45,6 +49,7 @@ const Games = () => {
             <a
               href="https://adexia.itch.io/ost-cirque-des-animaux"
               target="_blank"
+              rel="noreferrer noopener"
             >
               OST
             </a>
@@ -58,7 +63,11 @@ const Games = () => {
       </section>
 
       <h4>
-        <a href="https://cinnamew.itch.io/dermimis" target="_blank">
+        <a
+          href="https://cinnamew.itch.io/dermimis"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
           Dermimi's
         </a>
       </h4>
@@ -80,16 +89,21 @@ const Games = () => {
             the time), the super talented Cinnamew. It was my first signficant
             experience writing a canon story about someone else's characters,
             and that was certainly a challenge (especially since I was sick and
-            visiting family in India at the time), but it turned out well in the
-            end, if the tens of thousands of plays we got is any indication. I
-            really enjoyed writing subtle foreshadowing for the romance's
-            toxicity, as well as the horror plot twist towards the end.
+            visiting family in India at the time), but everything turned out
+            well in the end, if the tens of thousands of plays we got is any
+            indication. I really enjoyed writing subtle foreshadowing for the
+            romance's toxicity, as well as the horror plot twist towards the
+            end.
           </p>
         </aside>
       </section>
 
       <h4>
-        <a href="https://adexia.itch.io/the-love-application" target="_blank">
+        <a
+          href="https://adexia.itch.io/the-love-application"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
           The Love Application
         </a>
       </h4>
@@ -110,19 +124,23 @@ const Games = () => {
             This game was definitely a test of my ability to crunch, as I had to
             write the entire script, including four distinct endings and many
             branching choices, and implement everything into Renpy within a mere
-            three days. I was quite happy with the final game, though, as the
-            story, about a high schooler named Stacy creating a "boyfriend
-            application" to find the best match for her best friend, captured
-            the lighthearted, humorous tone I was going for, and I managed to
-            code a pretty interesting gameplay mechanic where you get to
-            evaluate and rate these boyfriend applications.
+            three days. But I was quite happy with the final game, as the story,
+            about a high schooler named Stacy creating a "boyfriend application"
+            to find the best match for her best friend, captured the
+            lighthearted, humorous tone I was going for, and I managed to code a
+            pretty interesting gameplay mechanic where you get to evaluate and
+            rate these boyfriend applications.
           </p>
         </aside>
       </section>
 
       <p className="Home-smallText">
         See all my published games on my{" "}
-        <a href="https://adexia.itch.io/" target="_blank">
+        <a
+          href="https://adexia.itch.io/"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
           itch page
         </a>
         !

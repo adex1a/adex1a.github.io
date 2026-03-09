@@ -13,8 +13,7 @@ const Home = () => {
           I'm a <NavLink to="/writing">writer</NavLink>,{" "}
           <NavLink to="/games">game developer</NavLink>,{" "}
           <NavLink to="/music">musician</NavLink>, and{" "}
-          <NavLink to="/about">student</NavLink> at Massachusetts Institute of
-          Technology.
+          <NavLink to="/education">MIT student</NavLink>.
         </div>
         <h2 className="Home-text" style={{ textAlign: "center" }}>
           Talk to me!

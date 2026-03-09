@@ -15,7 +15,11 @@ const Music = () => {
         seriously, joining several youth orchestras including the Pacific
         Symphony Youth Orchestra (PSYO), with whom I toured Vienna and Prague in
         2023. I attended{" "}
-        <a href="https://www.ocsarts.net/" target="_blank">
+        <a
+          href="https://www.ocsarts.net/"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
           Orange County School of the Arts (OCSA)
         </a>{" "}
         for high school, in the Instrumental Music: Strings & Orchestra
@@ -26,14 +30,16 @@ const Music = () => {
         <a
           href="https://youtube.com/@mitvgo?si=QYt448FaDn5cca8H"
           target="_blank"
+          rel="noreferrer noopener"
         >
           MIT Video Game Orchestra
         </a>
-        , which I also serve on the executive board of; I also love composing
-        music for my own games.
+        , which I also serve on the executive board of, and I'm a TA for an MIT
+        music theory class. I also love composing music for my own games, some
+        of which I've featured below.
       </p>
 
-      <h2>My Compositions</h2>
+      <h2>Recent Compositions</h2>
 
       <h4>Kiss of Death</h4>
       <section className="music">
@@ -44,7 +50,9 @@ const Music = () => {
         </audio>
         <aside>
           All I had was Musescore4 and a dream. Made for CDA, one of the{" "}
-          <NavLink to="/games">games highligted here</NavLink>.
+          <NavLink to="/games">games highligted here</NavLink>. This is probably
+          my favorite song from that game, unsurprising given where it shows up
+          in game.
         </aside>
       </section>
 
@@ -57,7 +65,8 @@ const Music = () => {
         </audio>
         <aside>
           Made for the same game as above, if "Death" didn't give it away. This
-          was the final boss theme.
+          was the final boss theme (and a not-so-subtle reference to Neil
+          Postman's essay. Shoutout CMS.100 Introduction to Media Studies).
         </aside>
       </section>
 
@@ -76,10 +85,14 @@ const Music = () => {
         </audio>
         <aside>
           First time using the big boy DAW Reaper. Made for{" "}
-          <a href="https://coco-adventurer.itch.io/ersatz" target="_blank">
-            this game
+          <a
+            href="https://coco-adventurer.itch.io/ersatz"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            this visual novel
           </a>
-          .
+          . I just wanted an excuse to mess around with echoes and reverb tbh.
         </aside>
       </section>
 
