@@ -22,15 +22,15 @@ const Music = () => {
         conservatory. At OCSA, beyond my classical performance, theory, and
         composition classes, I also participated in the MONTAGE! pop performance
         group and had the opportunity to play in gigs around the Orange County
-        area. These days, I still play violin in the{" "}
+        area. These days, I play violin in the{" "}
         <a
           href="https://youtube.com/@mitvgo?si=QYt448FaDn5cca8H"
           target="_blank"
         >
           MIT Video Game Orchestra
         </a>
-        , which I also serve on the executive board of; I also still love
-        composing music for my own games.
+        , which I also serve on the executive board of; I also love composing
+        music for my own games.
       </p>
 
       <h2>My Compositions</h2>
@@ -43,8 +43,8 @@ const Music = () => {
           Your browser does not support the audio element.
         </audio>
         <aside>
-          All I had was Musescore4 and a dream. Made for one of my{" "}
-          <NavLink to="/games">games</NavLink>.
+          All I had was Musescore4 and a dream. Made for CDA, one of the{" "}
+          <NavLink to="/games">games highligted here</NavLink>.
         </aside>
       </section>
 
@@ -56,7 +56,8 @@ const Music = () => {
           Your browser does not support the audio element.
         </audio>
         <aside>
-          Made for the same game as above, if "Death" didn't give it away.
+          Made for the same game as above, if "Death" didn't give it away. This
+          was the final boss theme.
         </aside>
       </section>
 
@@ -88,7 +89,10 @@ const Music = () => {
           <source src="src/assets/catcafe_bgmusic.mp3" type="audio/mpeg" />
           Your browser does not support the audio element.
         </audio>
-        <aside>Wrote in one day (on Reaper) for an MIT Web.Lab project.</aside>
+        <aside>
+          Wrote in one day (on Reaper) for an MIT Web.Lab project. Was going for
+          lo-fi + cats vibe.
+        </aside>
       </section>
     </div>
   );
