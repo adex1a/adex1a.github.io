@@ -28,7 +28,7 @@ const Games = () => {
       </h4>
       <section className="music">
         <img
-          src="../assets/cda_sc.png"
+          src="./assets/cda_sc.png"
           alt="A screenshot of the main character, Prince Kat, thinking about how handsome the villain is."
         />
         <aside>
@@ -73,7 +73,7 @@ const Games = () => {
       </h4>
       <section className="music">
         <img
-          src="./src/assets/dermimis_sc.png"
+          src="./assets/dermimis_sc.png"
           alt="A screenshot of the main character, a taxidermist, and her shy girlfriend."
         />
         <aside>
@@ -109,7 +109,7 @@ const Games = () => {
       </h4>
       <section className="music">
         <img
-          src="./src/assets/tla_sc.png"
+          src="./assets/tla_sc.png"
           alt="A screenshot of the main character, an awkward high school senior, talking to her best friend."
         />
         <aside>

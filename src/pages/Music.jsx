@@ -44,8 +44,8 @@ const Music = () => {
       <h4>Kiss of Death</h4>
       <section className="music">
         <audio controls>
-          <source src="./src/assets/kiss of death.ogg" type="audio/ogg" />
-          <source src="./src/assets/kiss of death.mp3" type="audio/mpeg" />
+          <source src="./assets/kiss of death.ogg" type="audio/ogg" />
+          <source src="./assets/kiss of death.mp3" type="audio/mpeg" />
           Your browser does not support the audio element.
         </audio>
         <aside>
