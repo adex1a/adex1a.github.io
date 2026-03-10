@@ -3,6 +3,7 @@ import "./Home.css";
 import "../App.css";
 import "../index.css";
 import { NavLink } from "react-router-dom";
+import iddtm from "../assets/IDDTM.pdf";
 
 const Writing = () => {
   return (
@@ -18,7 +19,7 @@ const Writing = () => {
       <p className="Pages-paragraphText">
         I've had poetry and prose published in MIT's Journal of Arts and
         Letters, Rune Literary Magazine, and my{" "}
-        <a href="./assets/IDDTM.pdf" target="_blank">
+        <a href={iddtm} target="_blank">
           memoir
         </a>{" "}
         won MIT's Isabelle De Courtivron Writing Prize for undergraduate writing

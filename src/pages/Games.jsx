@@ -2,9 +2,10 @@ import React from "react";
 import "./Home.css";
 import "../App.css";
 import "../index.css";
-import tla from "./assets/tla_sc.png";
-import cda from "./assets/cda_sc.png";
-import dermimis from "./assets/dermimis_sc.png";
+
+import cda from "../assets/cda_sc.png";
+import dermimis from "../assets/dermimis_sc.png";
+import tla from "../assets/tla_sc.png";
 
 const Games = () => {
   return (
