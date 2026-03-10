@@ -28,7 +28,7 @@ const Games = () => {
       </h4>
       <section className="music">
         <img
-          src="./src/assets/cda_sc.png"
+          src="../src/assets/cda_sc.png"
           alt="A screenshot of the main character, Prince Kat, thinking about how handsome the villain is."
         />
         <aside>
