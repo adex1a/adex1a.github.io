@@ -3,7 +3,7 @@ import { StrictMode } from "react";
 import "./index.css";
 import App from "./App.jsx";
 import ReactDOM from "react-dom/client";
-import { BrowserRouter } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 
 // createRoot(document.getElementById("root")).render(
 //   <StrictMode>
@@ -22,7 +22,7 @@ import { BrowserRouter } from "react-router-dom";
 
 // renders React Component "Root" into the DOM element with ID "root"
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <BrowserRouter>
+  <HashRouter>
     <App />
-  </BrowserRouter>
+  </HashRouter>,
 );
