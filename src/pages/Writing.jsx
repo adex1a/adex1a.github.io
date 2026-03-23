@@ -19,14 +19,17 @@ const Writing = () => {
       <p className="Pages-paragraphText">
         I've had poetry and prose published in MIT's Journal of Arts and
         Letters, Rune Literary Magazine, and my{" "}
-        <a href={iddtm} target="_blank">
+        <a className="link" href={iddtm} target="_blank">
           memoir
         </a>{" "}
         won MIT's Isabelle De Courtivron Writing Prize for undergraduate writing
         on immigrant, diaspora, and bicultural experiences. Some of my high
         school writing was also recognized by the Scholastic Art and Writing
         Awards. I've written many games, some of which are highlighted on the{" "}
-        <NavLink to="/games">Games</NavLink> page.
+        <NavLink className="link" to="/games">
+          Games
+        </NavLink>{" "}
+        page.
       </p>
       <p className="Pages-paragraphText">
         My prose fiction typically leans towards sci-fi/fantasy and romance,

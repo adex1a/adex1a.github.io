@@ -23,6 +23,7 @@ const Games = () => {
       <h2>Highlighted Games</h2>
       <h4>
         <a
+          className="link"
           href="https://adexia.itch.io/cirque-des-animaux"
           target="_blank"
           rel="noreferrer noopener"
@@ -51,6 +52,7 @@ const Games = () => {
             endings. I then composed ten minutes worth of songs for the mostly
             strings and piano based{" "}
             <a
+              className="link"
               href="https://adexia.itch.io/ost-cirque-des-animaux"
               target="_blank"
               rel="noreferrer noopener"
@@ -68,6 +70,7 @@ const Games = () => {
 
       <h4>
         <a
+          className="link"
           href="https://cinnamew.itch.io/dermimis"
           target="_blank"
           rel="noreferrer noopener"
@@ -104,6 +107,7 @@ const Games = () => {
 
       <h4>
         <a
+          className="link"
           href="https://adexia.itch.io/the-love-application"
           target="_blank"
           rel="noreferrer noopener"
@@ -141,6 +145,7 @@ const Games = () => {
       <p className="Home-smallText">
         See all my published games on my{" "}
         <a
+          className="link"
           href="https://adexia.itch.io/"
           target="_blank"
           rel="noreferrer noopener"

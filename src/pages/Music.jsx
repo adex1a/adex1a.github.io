@@ -24,6 +24,7 @@ const Music = () => {
         Symphony Youth Orchestra (PSYO), with whom I toured Vienna and Prague in
         2023. I attended{" "}
         <a
+          className="link"
           href="https://www.ocsarts.net/"
           target="_blank"
           rel="noreferrer noopener"
@@ -36,6 +37,7 @@ const Music = () => {
         group and had the opportunity to play in gigs around the Orange County
         area. These days, I play violin in the{" "}
         <a
+          className="link"
           href="https://youtube.com/@mitvgo?si=QYt448FaDn5cca8H"
           target="_blank"
           rel="noreferrer noopener"
@@ -58,9 +60,11 @@ const Music = () => {
         </audio>
         <aside>
           All I had was Musescore4 and a dream. Made for CDA, one of the{" "}
-          <NavLink to="/games">games highligted here</NavLink>. This is probably
-          my favorite song from that game, unsurprising given where it shows up
-          in game.
+          <NavLink className="link" to="/games">
+            games highligted here
+          </NavLink>
+          . This is probably my favorite song from that game, unsurprising given
+          where it shows up in game.
         </aside>
       </section>
 
@@ -88,6 +92,7 @@ const Music = () => {
         <aside>
           First time using the big boy DAW Reaper. Made for{" "}
           <a
+            className="link"
             href="https://coco-adventurer.itch.io/ersatz"
             target="_blank"
             rel="noreferrer noopener"

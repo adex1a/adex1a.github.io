@@ -13,6 +13,7 @@ const About = () => {
         build-your-own-major combining one humanities and one engineering degree
         program of choice. My combination is{" "}
         <a
+          className="link"
           href="https://cmsw.mit.edu/"
           target="_blank"
           rel="noreferrer noopener"
@@ -30,6 +31,7 @@ const About = () => {
             6.1010 Fundamentals of Programming, 6.1210 Introduction to
             Algorithms,{" "}
             <a
+              className="link"
               href="http://webdevelopment.mit.edu/"
               target="_blank"
               rel="noreferrer noopener"
@@ -42,6 +44,7 @@ const About = () => {
         </ul>
         I've participated in MIT's{" "}
         <a
+          className="link"
           href="https://urop.mit.edu/about/"
           target="_blank"
           rel="noreferrer noopener"
@@ -50,6 +53,7 @@ const About = () => {
         </a>{" "}
         as well as being part of the 2026{" "}
         <a
+          className="link"
           href="https://misti.mit.edu/japan"
           target="_blank"
           rel="noreferrer noopener"
@@ -61,6 +65,7 @@ const About = () => {
       <h2>My Experiences</h2>
       <h4>
         <a
+          className="link"
           href="https://tropetank.com/"
           target="_blank"
           rel="noreferrer noopener"
@@ -76,6 +81,7 @@ const About = () => {
         research purposes. We're also working on adding new features to Dr.
         Montfort's own system,{" "}
         <a
+          className="link"
           href="https://nickm.com/curveship/"
           target="_blank"
           rel="noreferrer noopener"
@@ -90,6 +96,7 @@ const About = () => {
       </p>
       <h4>
         <a
+          className="link"
           href="https://gamelab.mit.edu/"
           target="_blank"
           rel="noreferrer noopener"
@@ -100,6 +107,7 @@ const About = () => {
       <p className="Pages-paragraphText">
         My past UROP, from January '25 to January '26, with Rik Eberhardt on the{" "}
         <a
+          className="link"
           href="https://education.mit.edu/project/psims-participatory-simulations/"
           target="_blank"
           rel="noreferrer noopener"

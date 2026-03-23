@@ -10,10 +10,23 @@ const Home = () => {
       <div className="bg">
         <h1 className="Home-text">Hello, world!</h1>
         <div className="Home-text Home-smallText">
-          I'm a <NavLink to="/writing">writer</NavLink>,{" "}
-          <NavLink to="/games">game developer</NavLink>,{" "}
-          <NavLink to="/music">musician</NavLink>, and{" "}
-          <NavLink to="/education">MIT student</NavLink>.
+          I'm a{" "}
+          <NavLink className="link" to="/writing">
+            writer
+          </NavLink>
+          ,{" "}
+          <NavLink className="link" to="/games">
+            game developer
+          </NavLink>
+          ,{" "}
+          <NavLink className="link" to="/music">
+            musician
+          </NavLink>
+          , and{" "}
+          <NavLink className="link" to="/education">
+            MIT student
+          </NavLink>
+          .
         </div>
         <h2 className="Home-text" style={{ textAlign: "center" }}>
           Talk to me!
@@ -25,7 +38,7 @@ const Home = () => {
             target="_blank"
             rel="noreferrer noopener"
             style={{ zIndex: 1 }}
-            className="Home-text Home-smallText"
+            className="Home-text Home-smallText link"
           >
             LinkedIn
           </a>
