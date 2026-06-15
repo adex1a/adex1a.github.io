@@ -15,8 +15,8 @@ const Games = () => {
         I've been making games independently for nearly four years now, starting
         in 2022 with the COSMOS Game Design summer program and continuing
         through 2024, when I was chosen to be an ESA Foundation Scholar, to
-        2026, when I am attending the GDC Festival of Gaming. I've covered many
-        roles in gamedev, from programming to music, though these days I'm most
+        2026, when I attended the GDC Festival of Gaming. I've covered many
+        roles in gamedev, including programming and music, though I'm most
         interested in writing and narrative design. Below are some games I've
         developed relatively recently.
       </p>

@@ -14,7 +14,7 @@ const Writing = () => {
         Whether it was poetry, plays, short stories, games, memoirs, or novels,
         I've always been a writer in some form or another. I've aspired to be an
         author or screenplay writer or game narrative designer at various points
-        of my life, and would still love to do any combination of those things.
+        of my life and would still love to do any combination of those things.
       </p>
       <p className="Pages-paragraphText">
         I've had poetry and prose published in MIT's Journal of Arts and
@@ -25,19 +25,20 @@ const Writing = () => {
         won MIT's Isabelle De Courtivron Writing Prize for undergraduate writing
         on immigrant, diaspora, and bicultural experiences. Some of my high
         school writing was also recognized by the Scholastic Art and Writing
-        Awards. I've written many games, some of which are highlighted on the{" "}
+        Awards. I've written for many games, some of which are highlighted on
+        the{" "}
         <NavLink className="link" to="/games">
           Games
         </NavLink>{" "}
         page.
       </p>
       <p className="Pages-paragraphText">
-        My prose fiction typically leans towards sci-fi/fantasy and romance,
-        with my interests especially lying in stories that combine social
-        commentary, diverse representation, and a slowburn/enemies-to-lovers
-        romance. Some of my favorite books are Leigh Bardugo's Ninth House
-        series and Maggie Stiefvater's Raven Cycle series. (And, of course, I
-        grew up on the Hunger Games and Percy Jackson series.)
+        I write novels in the sci-fi/fantasy genre, with my interests especially
+        lying in stories that combine social commentary, diverse representation,
+        and a slowburn/enemies-to-lovers romance. Some of my favorite books are
+        Leigh Bardugo's Ninth House trilogy and Maggie Stiefvater's Raven Cycle
+        series. (And, of course, I grew up on the Hunger Games and Percy Jackson
+        series.)
       </p>
     </div>
   );

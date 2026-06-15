@@ -52,7 +52,7 @@ const About = () => {
         >
           Undergraduate Research Opportunities Program (UROP)
         </a>{" "}
-        as well as being part of the 2026{" "}
+        and was part of the 2026{" "}
         <a
           className="link"
           href="https://misti.mit.edu/japan"
@@ -63,7 +63,7 @@ const About = () => {
         </a>{" "}
         cohort.
       </p>
-      <h2>My Experiences</h2>
+      <h2>Research</h2>
       <h4>
         <a
           className="link"

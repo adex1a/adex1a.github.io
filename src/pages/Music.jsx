@@ -2,7 +2,7 @@ import React from "react";
 import "./Home.css";
 import "../App.css";
 import "../index.css";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 import kod_ogg from "../assets/kiss of death.ogg";
 import kod_mp3 from "../assets/kiss of death.mp3";
@@ -11,6 +11,8 @@ import atd_mp3 from "../assets/amused to death.mp3";
 import ers_wav from "../assets/mirror game wip-consolidated.wav";
 import ers_mp3 from "../assets/mirror game wip-consolidated.mp3";
 import wcc_mp3 from "../assets/catcafe_bgmusic.mp3";
+import sus_mp3 from "../assets/Uneasy_Steps_audio.mp3";
+import mal_wav from "../assets/video_game_music.wav";
 
 const Music = () => {
   return (
@@ -19,10 +21,10 @@ const Music = () => {
       {/* <h2>My Background</h2> */}
       <p className="Pages-paragraphText">
         My music journey began with violin lessons in 3rd grade and piano soon
-        after. While I quit piano four years later, I continued violin
-        seriously, joining several youth orchestras including the Pacific
-        Symphony Youth Orchestra (PSYO), with whom I toured Vienna and Prague in
-        2023. I attended{" "}
+        after. While I quit piano four years later, I continued seriously with
+        violin, joining several youth orchestras including the Pacific Symphony
+        Youth Orchestra (PSYO), with whom I toured Vienna and Prague in 2023. I
+        attended{" "}
         <a
           className="link"
           href="https://www.ocsarts.net/"
@@ -82,6 +84,19 @@ const Music = () => {
         </aside>
       </section>
 
+      <h4>Uneasy Steps Beneath the Leafy Canopy</h4>
+      <section className="music">
+        <audio controls>
+          <source src={sus_mp3} type="audio/mpeg" />
+          Your browser does not support the audio element.
+        </audio>
+        <aside>
+          Made in Logic Pro for my Film and Game Scoring class (man my high
+          school was so cool). I don't actually remember if this was the correct
+          title because I always abbreviated it to "Uneasy Steps" ¯\_(ツ)_/¯
+        </aside>
+      </section>
+
       <h4>Ersatz</h4>
       <section className="music">
         <audio controls>
@@ -112,6 +127,26 @@ const Music = () => {
         <aside>
           Wrote in one day (on Reaper) for an MIT Web.Lab project. Was going for
           lo-fi + cats vibe.
+        </aside>
+      </section>
+
+      <h4>Lullaby</h4>
+      <section className="music">
+        <audio controls>
+          <source src={mal_wav} type="audio/mpeg" />
+          Your browser does not support the audio element.
+        </audio>
+        <aside>
+          Wrote in high school for fun and ended up using it later in a{" "}
+          <a
+            className="link"
+            href="https://adexia.itch.io/meat-and-loaf"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            game jam project
+          </a>
+          . The game was also cat related, funnily enough.
         </aside>
       </section>
     </div>
