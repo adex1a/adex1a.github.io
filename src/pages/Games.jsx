@@ -97,9 +97,8 @@ const Games = () => {
             experience writing a canon story about someone else's characters,
             and that was certainly a challenge (especially since I was sick and
             visiting family in India at the time), but everything turned out
-            well in the end, if the tens of thousands of plays we got is any
-            indication. I really enjoyed writing subtle foreshadowing for the
-            romance's toxicity, as well as the horror plot twist towards the
+            well in the end. I really enjoyed writing subtle foreshadowing for
+            the romance's toxicity, as well as the horror plot twist towards the
             end.
           </p>
         </aside>
