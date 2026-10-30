@@ -94,8 +94,8 @@ const About = () => {
         >
           Participatory Simulations (pSims)
         </a>{" "}
-        project, a series of classroom mobile games. I worked on two games:
-        Tragedy of the Commons (ToC), which was about resource management and
+        project, a series of classroom web games. I worked on two games: Tragedy
+        of the Commons (ToC), which was about resource management and
         environmental conservation, and the unnamed Source Game, which was about
         news misinformation. For ToC, I wrote technical documentation and aided
         in playtesting sessions. In particular, I created a suite of specific,
@@ -132,7 +132,7 @@ const About = () => {
         Typescript and React. I made several important features for that game
         including a dashboard for displaying and ranking news headlines, a quiz
         mechanic for students, a page for students to review the headlines
-        they've viewed, and a page for students to create and post their own
+        they've found, and a page for students to create and post their own
         headlines.
       </p>
       <h4>
