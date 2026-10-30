@@ -32,9 +32,8 @@ const Games = () => {
         .
       </p>
 
-      <h2>Game Design</h2>
+      {/* <h2>Game Design</h2>
       <section className="music">
-        {/* <p className="Pages-paragraphText"></p> */}
         <div className="before-after">
           <img
             src={paper_maze}
@@ -60,7 +59,7 @@ const Games = () => {
             vanquish the fog.
           </p>
         </aside>
-      </section>
+      </section> */}
 
       <h2>Highlighted Games</h2>
       <h4>
@@ -191,7 +190,7 @@ const Games = () => {
           target="_blank"
           rel="noreferrer noopener"
         >
-          itch page
+          itch.io page
         </a>
         !
       </p>

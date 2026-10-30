@@ -195,8 +195,9 @@ const About = () => {
         alt="A screenshot from the VR game I developed for this project, depicting a grocery store within which the player has to choose healthy foods."
       />
       <p className="Pages-paragraphText">
-        My final paper from this summer project is forthcoming for publication
-        in the{" "}
+        My final paper from this summer project, Effect of Food Presentation
+        Context on Nutrition Learning in a Virtual Reality Game, is forthcoming
+        for publication in the{" "}
         <a
           className="link"
           href="https://murj.webflow.io/"
