@@ -15,10 +15,6 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  /* cursor: url("assets/star.png"), auto; */
-}
-
-@media (prefers-color-scheme: dark) {
   .link:visited {
     color: #c7aff5;
   }
@@ -28,7 +24,13 @@
   .link:hover {
     color: #6a9fc8;
   }
+
+  /* cursor: url("assets/star.png"), auto; */
 }
+
+/* @media (prefers-color-scheme: dark) { */
+
+/* } */
 
 body {
   margin: 0;
@@ -65,7 +67,7 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-@media (prefers-color-scheme: light) {
+/* @media (prefers-color-scheme: light) {
   :root {
     color: #290547;
     background-color: #ca92f7;
@@ -81,7 +83,4 @@ button:focus-visible {
     color: #747bff;
   }
 
-  /*button {
-    background-color: #f9f9f9;
-  } */
-}
+} */

@@ -137,7 +137,7 @@ const Music = () => {
           Your browser does not support the audio element.
         </audio>
         <aside>
-          Wrote in high school (using Ableton Studio) for fun and ended up using
+          Wrote in high school (using Ableton Live) for fun and ended up using
           it later in a{" "}
           <a
             className="link"
