@@ -51,6 +51,12 @@ aside {
   padding: 0 16px 16px;
 }
 
+.before-after {
+  display: flex;
+  flex-direction: column;
+  max-width: 20%;
+}
+
 /* .game {
   display: flex;
 } */
@@ -82,6 +88,12 @@ a {
 img {
   max-width: 40%;
   object-fit: contain;
+}
+
+video {
+  /* max-width: 40%; */
+  padding-top: 16px;
+  /* object-fit: contain; */
 }
 
 @media screen and (max-width: 515px) {

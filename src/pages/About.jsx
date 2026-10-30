@@ -6,6 +6,7 @@ import discussionguide from "../assets/discussionguide.pdf";
 import introguide from "../assets/introguide.pdf";
 import remotedoc from "../assets/remotedoc.pdf";
 import stepbystep from "../assets/stepbystep.pdf";
+import grocery from "../assets/istproject_grocerycontext.png";
 
 const About = () => {
   return (
@@ -164,6 +165,47 @@ const About = () => {
         primarily programming new Curveship features (such as passive voice
         sentences) using Javascript, creating new Nubs using Python, and reading
         and editing papers.
+      </p>
+      <h4>
+        <a
+          className="link"
+          href="https://www.clab-tokyotech.org/"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
+          The Cross Lab
+        </a>
+      </h4>
+      <p className="Pages-paragraphText">
+        In summer 2026, I had the opportunity to live and work in Tokyo, Japan
+        through the MISTI program. I joined the Institute of Science Tokyo
+        (formerly known as Tokyo Tech) as a research exchange student in the
+        Cross Lab's Educational Technology group. I collaborated with PhD
+        candidate Don Wang and proposed an independent research project related
+        to his work on VR games for nutrition/food education. It was a valuable
+        opportunity for me to go through all the steps of the research process
+        for my own project: conducting a literature review, forming a unique
+        research question, devising an experiment (which in my case involved
+        designing and developing a short VR game), gathering data through the
+        experiment, analyzing the data in a final paper, and giving a final
+        presentation to the lab.
+      </p>
+      <img
+        src={grocery}
+        alt="A screenshot from the VR game I developed for this project, depicting a grocery store within which the player has to choose healthy foods."
+      />
+      <p className="Pages-paragraphText">
+        My final paper from the summer project is forthcoming for publication in
+        the{" "}
+        <a
+          className="link"
+          href="https://murj.webflow.io/"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
+          MIT Undergraduate Research Journal (MURJ)
+        </a>
+        .
       </p>
     </div>
   );

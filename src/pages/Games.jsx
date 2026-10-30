@@ -2,24 +2,66 @@ import React from "react";
 import "./Home.css";
 import "../App.css";
 import "../index.css";
+import { NavLink } from "react-router-dom";
 
 import cda from "../assets/cda_sc.png";
 import dermimis from "../assets/dermimis_sc.png";
 import tla from "../assets/tla_sc.png";
+import maze from "../assets/darkmaze_demo.mp4";
+import paper_maze from "../assets/maze_paperprototype.jpg";
 
 const Games = () => {
   return (
     <div>
       {/* <h1 className="Home-text">Games page</h1> */}
       <p className="Pages-paragraphText">
-        I've been making games independently for nearly four years now, starting
+        I've been making games independently for over four years now, starting
         in 2022 with the COSMOS Game Design summer program and continuing
         through 2024, when I was chosen to be an ESA Foundation Scholar, to
         2026, when I attended the GDC Festival of Gaming. I've covered many
         roles in gamedev, including programming and music, though I'm most
-        interested in writing and narrative design. Below are some games I've
-        developed relatively recently.
+        interested in{" "}
+        <NavLink className="link" to="/writing">
+          writing
+        </NavLink>{" "}
+        and design. I've also worked in MIT's Game Lab and taken many of MIT's
+        game classes, which I've mentioned more about{" "}
+        <NavLink className="link" to="/education">
+          here
+        </NavLink>
+        .
       </p>
+
+      <h2>Game Design</h2>
+      <section className="music">
+        {/* <p className="Pages-paragraphText"></p> */}
+        <div className="before-after">
+          <img
+            src={paper_maze}
+            alt="A photograph of a paper prototype of the maze game."
+            style={{ maxWidth: "100%" }}
+          />
+          <video controls>
+            <source src={maze} />
+          </video>
+        </div>
+
+        <aside>
+          <p className="Pages-paragraphText">
+            Vision statement: The Mage of the Dark Tower has conjured a mystical
+            fog that spawns hostile monsters and threatens to engulf your
+            beloved town. To stop it, you must venture to his lair situated
+            somewhere in a sprawling dungeon. Inside this labyrinth, you can't
+            see monsters until they're too close for comfort—maybe until it's
+            too late. You must instead listen for the sounds they make to evade
+            them. But everything you do makes noise, and the monsters can hear
+            you too. Strategizing your actions is vital, as even a poorly timed
+            footstep can seal your fate. Survive, search for the tower, and
+            vanquish the fog.
+          </p>
+        </aside>
+      </section>
+
       <h2>Highlighted Games</h2>
       <h4>
         <a
