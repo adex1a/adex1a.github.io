@@ -28,6 +28,31 @@ const Home = () => {
           </NavLink>
           .
         </div>
+        <p className="Home-text Home-smallText" style={{ fontSize: "15px" }}>
+          Also a Southern California girl (born and raised!), diehard fan of My
+          Chemical Romance, <br />
+          and proud resident (+ former hallchair) of{" "}
+          <a
+            href="https://5west.mit.edu/"
+            target="_blank"
+            rel="noreferrer noopener"
+            style={{ zIndex: 1 }}
+            className="link"
+          >
+            Fifth West
+          </a>{" "}
+          in MIT's{" "}
+          <a
+            href="https://ec.mit.edu/"
+            target="_blank"
+            rel="noreferrer noopener"
+            style={{ zIndex: 1 }}
+            className="link"
+          >
+            East Campus
+          </a>
+          .
+        </p>
         <h2 className="Home-text" style={{ textAlign: "center" }}>
           Talk to me!
         </h2>

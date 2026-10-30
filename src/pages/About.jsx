@@ -14,11 +14,11 @@ const About = () => {
       <p className="Pages-paragraphText">
         {/* <h1 className="Home-text">About page</h1>
       <p>More in depth bio like school etc, and link to resume/cv? </p> */}
-        Currently, I am an undergraduate student at Massachusetts Institute of
-        Technology majoring in course 21E (Humanities and Engineering) and
-        minoring in 21G/Japanese. 21E is basically a build-your-own-major
-        combining one humanities and one engineering degree program of choice.
-        My combination is{" "}
+        Currently, I am a junior at Massachusetts Institute of Technology
+        majoring in course 21E (Humanities and Engineering) and minoring in
+        Japanese. 21E is basically a build-your-own-major combining one
+        humanities and one engineering degree program of choice. My combination
+        is{" "}
         <a
           className="link"
           href="https://cmsw.mit.edu/"
@@ -195,8 +195,8 @@ const About = () => {
         alt="A screenshot from the VR game I developed for this project, depicting a grocery store within which the player has to choose healthy foods."
       />
       <p className="Pages-paragraphText">
-        My final paper from the summer project is forthcoming for publication in
-        the{" "}
+        My final paper from this summer project is forthcoming for publication
+        in the{" "}
         <a
           className="link"
           href="https://murj.webflow.io/"

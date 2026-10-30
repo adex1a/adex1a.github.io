@@ -183,7 +183,7 @@ const Games = () => {
         </aside>
       </section>
 
-      <p className="Home-smallText">
+      <p className="Home-smallText" style={{ fontSize: "35px" }}>
         See all my published games on my{" "}
         <a
           className="link"
